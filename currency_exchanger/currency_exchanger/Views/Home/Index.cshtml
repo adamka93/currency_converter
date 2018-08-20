@@ -1,3 +1,95 @@
 ﻿@{
     ViewBag.Title = "Home";
 }
+<div class="container inner text-center">
+	<form class="form-inline">
+		<div class="row top_line">
+			<input type="text" name="from" value="1" class="input fromvalue" />
+			<span class="spacer">&nbsp;=&nbsp;</span>
+			<input type="text" name="to" value="" readonly class="tovalue" />
+		</div>
+		<div class="row">
+			<select class="input fromtype">
+				<option>USD</option>
+				<option>JPY</option>
+				<option>BGN</option>
+				<option>CZK</option>
+				<option>DKK</option>
+				<option>GBP</option>
+				<option>HUF</option>
+				<option>PLN</option>
+				<option>RON</option>
+				<option>SEK</option>
+				<option>CHF</option>
+				<option>ISK</option>
+				<option>NOK</option>
+				<option>HRK</option>
+				<option>RUB</option>
+				<option>TRY</option>
+				<option>AUD</option>
+				<option>BRL</option>
+				<option>CAD</option>
+				<option>CNY</option>
+				<option>HKD</option>
+				<option>IDR</option>
+				<option>ILS</option>
+				<option>INR</option>
+				<option>KRW</option>
+				<option>MXN</option>
+				<option>MYR</option>
+				<option>NZD</option>
+				<option>PHP</option>
+				<option>SGD</option>
+				<option>THB</option>
+				<option>ZAR</option>
+				<option>EUR</option>
+			</select>
+			<span class="spacer">&nbsp;&nbsp;&nbsp;</span>
+			<select class="input totype">
+				<option>USD</option>
+				<option>JPY</option>
+				<option>BGN</option>
+				<option>CZK</option>
+				<option>DKK</option>
+				<option>GBP</option>
+				<option>HUF</option>
+				<option>PLN</option>
+				<option>RON</option>
+				<option>SEK</option>
+				<option>CHF</option>
+				<option>ISK</option>
+				<option>NOK</option>
+				<option>HRK</option>
+				<option>RUB</option>
+				<option>TRY</option>
+				<option>AUD</option>
+				<option>BRL</option>
+				<option>CAD</option>
+				<option>CNY</option>
+				<option>HKD</option>
+				<option>IDR</option>
+				<option>ILS</option>
+				<option>INR</option>
+				<option>KRW</option>
+				<option>MXN</option>
+				<option>MYR</option>
+				<option>NZD</option>
+				<option>PHP</option>
+				<option>SGD</option>
+				<option>THB</option>
+				<option>ZAR</option>
+				<option selected>EUR</option>
+			</select>
+		</div>
+	</form>
+
+	<div id="chart_container">
+		<div id="chart"></div>
+		<div id="legend_container">
+			<div id="smoother" title="Smoothing"></div>
+			<div id="legend"></div>
+		</div>
+		<div id="slider"></div>
+	</div>
+
+</div>

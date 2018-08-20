@@ -19,12 +19,29 @@ namespace currency_exchanger
 			bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
 						"~/Scripts/modernizr-*"));
 
+			bundles.Add(new ScriptBundle("~/bundles/customjs").Include(
+						"~/Scripts/main.js"));
+
 			bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
 					  "~/Scripts/bootstrap.js"));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 					  "~/Content/bootstrap.css",
 					  "~/Content/site.css"));
+
+			bundles.Add(new StyleBundle("~/Content/rickshaw").Include(
+					  "~/Content/rickshaw.css"));
+
+			bundles.Add(new StyleBundle("~/Content/jqueryui").Include(
+					  "~/Content/jquery-ui.css",
+					  "~/Content/jquery-ui.theme.css"));
+
+			bundles.Add(new ScriptBundle("~/bundles/rickshaw").Include(
+					  "~/Scripts/d3.v3.js",
+					  "~/Scripts/rickshaw.js"));
+
+			bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
+					  "~/Scripts/jquery-ui.js"));
 		}
 	}
 }

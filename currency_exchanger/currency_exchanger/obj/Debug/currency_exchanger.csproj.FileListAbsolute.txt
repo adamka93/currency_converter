@@ -1,3 +1,9 @@
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.IO.Compression.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\VBCSCompiler.exe
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\ApplicationInsights.config
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\currency_exchanger.dll.config
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\currency_exchanger.dll
@@ -9,13 +15,9 @@ C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\csi.exe.config
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\csi.rsp
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -25,7 +27,6 @@ C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.IO.Compression.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -48,9 +49,10 @@ C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\vbc.exe
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\vbc.exe.config
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\vbc.rsp
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\VBCSCompiler.exe
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Antlr3.Runtime.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\EntityFramework.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\EntityFramework.SqlServer.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -71,6 +73,8 @@ C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\System.Web.WebPages.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\System.Web.WebPages.Razor.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\WebGrease.dll
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\EntityFramework.xml
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\EntityFramework.SqlServer.xml
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\System.Web.Helpers.xml
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\System.Web.Mvc.xml
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\System.Web.Optimization.xml
@@ -86,8 +90,8 @@ C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Microsoft.AI.Web.xml
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\obj\Debug\currency_exchanger.csprojAssemblyReference.cache
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\obj\Debug\currency_exchanger.csproj.CoreCompileInputs.cache
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\obj\Debug\currency_exchanger.csproj.CopyComplete
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\obj\Debug\currency_exchanger.dll
 C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\obj\Debug\currency_exchanger.pdb
+C:\Users\ahacsko\Desktop\exchange\currency_converter\currency_exchanger\currency_exchanger\obj\Debug\currency_exchanger.csprojAssemblyReference.cache

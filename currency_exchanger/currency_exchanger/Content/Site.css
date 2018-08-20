@@ -22,3 +22,36 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.container.inner {
+	margin-top:5%;
+}
+
+.container.inner input,
+.container.inner select {
+	width: 8rem;
+	height: 4rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.spacer{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.top_line{
+	margin-bottom: 2rem;
+}
+
+body{
+	margin-bottom:20px;
+}
+
+footer{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align: center;
+}
