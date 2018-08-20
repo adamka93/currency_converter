@@ -14,8 +14,6 @@
 	}];
 	var graph = new Rickshaw.Graph({
 		element: document.getElementById("chart"),
-		width: 960,
-		height: 500,
 		renderer: 'line',
 		stroke: true,
 		preserve: true,
@@ -60,24 +58,29 @@
 			}).done(function (response) {
 				$("input.tovalue").val(response.data.replace("\"", "").replace("\"", ""));
 				getData();
-			}).fail(function (response) {
-				debugger;
 			});
 		});
 	}
 
 	function updateGraph(response) {
-		debugger;
 		var from = $("select.fromtype").val();
 		var to = $("select.totype").val();
+		let fromarr = filterArr(response, from);
+		let toarr = filterArr(response, to)
+
+		let fromMax = Math.max.apply(Math, (fromarr.map(function (item, idx) { return item["y"]; })));
+		let toMax = Math.max.apply(Math, (toarr.map(function (item, idx) { return item["y"]; })));
+		let max = Math.max(fromMax, toMax);
+
 		graphData[0].data = [];
-		graphData[0].data.push(...filterArr(response, from));
+		graphData[0].data.push(...fromarr);
 		$("#legend ul li:nth-child(2) span").text(from);
 		graphData[0].name = from;
 		graphData[1].data = [];
-		graphData[1].data.push(...filterArr(response, to));
+		graphData[1].data.push(...toarr);
 		$("#legend ul li:nth-child(1) span").text(to);
 		graphData[1].name = to;
+		graph.max = max + max * 1.1;
 		graph.render();
 	}
 
@@ -93,12 +96,9 @@
 				dataType: 'json'
 			}).done(function (response) {
 				updateGraph(response)
-			}).fail(function (response) {
-				debugger;
 			});
 		});
 	}
-
 	// set up our data series with 50 random data points
 	getData();
 })()

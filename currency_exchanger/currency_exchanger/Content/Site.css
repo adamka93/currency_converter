@@ -46,6 +46,7 @@ textarea {
 
 body{
 	margin-bottom:20px;
+	font-family: 'Century Gothic';
 }
 
 footer{
@@ -54,4 +55,43 @@ footer{
 	left:0;
 	width:100%;
 	text-align: center;
+}
+
+body {
+	background-color: #3A4652;
+}
+.navbar-inverse,
+footer {
+	background-color: #2C3641;
+	color: #9d9d9d;
+	border: 0;
+}
+
+footer p{
+	margin: 10px 0px;
+}
+
+.input.fromvalue,
+input.tovalue {
+	background-color: #2C3541;
+	border: 0;
+	border-radius: 0.5rem;
+	color: #57D4DE;
+}
+
+select.input.fromtype,
+select.input, totype {
+	background-color: #343C49;
+	border: 0;
+	color: #AEB3B8;
+	border-radius: 0.5rem;
+	width: 8rem;
+	text-align-last: center;
+	text-align: center;
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
+}
+
+#chart_container{
+	margin: 3rem auto;
 }
