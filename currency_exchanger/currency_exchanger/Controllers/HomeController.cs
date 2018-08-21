@@ -83,7 +83,7 @@ namespace currency_exchanger.Controllers
 		{
 			return new JsonResult()
 			{
-				Data = new { data = JsonConvert.SerializeObject(context.rates.ToList()) },
+				Data = new { data = JsonConvert.SerializeObject(context.rates.OrderBy(o=>o.time).ToList()) },
 				JsonRequestBehavior = JsonRequestBehavior.AllowGet
 			};
 		}

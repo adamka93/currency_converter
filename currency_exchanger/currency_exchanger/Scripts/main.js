@@ -85,7 +85,7 @@
 	}
 
 	function filterArr(response, key) {
-		return JSON.parse(response.data).map(function (item, idx) { return { x: new Date(item["time"]).getTime(), y: item[key] } }).reverse();
+		return JSON.parse(response.data).map(function (item, idx) { return { x: new Date(item["time"]).getTime(), y: item[key] } });
 	}
 
 	function getData() {
